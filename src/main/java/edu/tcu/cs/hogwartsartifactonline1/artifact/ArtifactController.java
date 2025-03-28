@@ -5,6 +5,7 @@ import edu.tcu.cs.hogwartsartifactonline1.artifact.converter.ArtifactToArtifactD
 import edu.tcu.cs.hogwartsartifactonline1.artifact.dto.ArtifactDto;
 import edu.tcu.cs.hogwartsartifactonline1.system.Result;
 import edu.tcu.cs.hogwartsartifactonline1.system.StatusCode;
+import jakarta.validation.Valid;
 import jdk.jshell.Snippet;
 import org.springframework.web.bind.annotation.*;
 
