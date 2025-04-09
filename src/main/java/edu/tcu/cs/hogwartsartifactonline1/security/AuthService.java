@@ -23,7 +23,7 @@ public class AuthService {
 
     public Map<String, Object> createLoginInfo(Authentication authentication) {
         //User Info
-        MyUserPrincipal principal = (MyUserPrincipal) authentication.getPrincipal();
+        MyUserPrincipal principal = (MyUserPrincipal)authentication.getPrincipal();
         HogwartsUser hogwartsUser = principal.getHogwartsUser();
         UserDto userDto = userToUserDtoConverter.convert(hogwartsUser);
         //JWT
