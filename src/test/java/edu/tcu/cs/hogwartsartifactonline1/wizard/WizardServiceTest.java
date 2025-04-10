@@ -21,8 +21,10 @@ import static org.junit.jupiter.api.Assertions.*;
 import static org.mockito.BDDMockito.given;
 import static org.mockito.Mockito.*;
 import edu.tcu.cs.hogwartsartifactonline1.artifact.Artifact;
+import org.springframework.test.context.ActiveProfiles;
 
 @ExtendWith(MockitoExtension.class)
+@ActiveProfiles(value = "dev")
 class WizardServiceTest {
 
     @Mock
